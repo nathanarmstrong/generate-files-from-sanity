@@ -1,0 +1,11 @@
+export interface {{name}}Props {
+  name: string;
+  type: string;
+  title: string;
+  fields: [
+    {{#fields}}
+      {{name}}: {{type}};
+    {{/fields}}
+  ] 
+}
+`

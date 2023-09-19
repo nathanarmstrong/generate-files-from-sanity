@@ -1,0 +1,16 @@
+{
+  "name": "generate-types",
+  "version": "0.0.0",
+  "main": "./index.tsx",
+  "scripts": {
+    "test": "node ./index.js test",
+    "generate": "node index.js"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "arrowParens": "always",
+    "semi": false
+  }
+}
